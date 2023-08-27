@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = UnityEditor.TestTools.CodeCoverage
+build_property.ProjectDir = f:\UnityProjects\Projects\3DBeginner_Tutrial\

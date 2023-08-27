@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Performance.Profile-Analyzer.Editor.csproj": {}
+  },
+  "projects": {
+    "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Performance.Profile-Analyzer.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Performance.Profile-Analyzer.Editor.csproj",
+        "projectName": "Unity.Performance.Profile-Analyzer.Editor",
+        "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Performance.Profile-Analyzer.Editor.csproj",
+        "packagesPath": "C:\\Users\\cuiwanzhi\\.nuget\\packages\\",
+        "outputPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cuiwanzhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj"
+              },
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj"
+              },
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj"
+              },
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.UI.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\cuiwanzhi\\.nuget\\packages\\",
+        "outputPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cuiwanzhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\cuiwanzhi\\.nuget\\packages\\",
+        "outputPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cuiwanzhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj"
+              },
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj"
+              },
+              "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.UI.csproj": {
+                "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\cuiwanzhi\\.nuget\\packages\\",
+        "outputPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cuiwanzhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\cuiwanzhi\\.nuget\\packages\\",
+        "outputPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cuiwanzhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
