@@ -2,6 +2,84 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Cinemachine/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unity.Postprocessing.Runtime": "1.0.0",
+          "Unity.Timeline": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cinemachine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cinemachine.dll": {}
+        }
+      },
+      "Unity.Postprocessing.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unity.Postprocessing.Runtime": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Postprocessing.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Postprocessing.Editor.dll": {}
+        }
+      },
+      "Unity.Postprocessing.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Postprocessing.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Postprocessing.Runtime.dll": {}
+        }
+      },
+      "Unity.Timeline/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Timeline.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Timeline.dll": {}
+        }
+      },
+      "Unity.Timeline.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unity.Timeline": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Timeline.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Timeline.Editor.dll": {}
+        }
+      },
       "UnityEditor.TestRunner/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -13,6 +91,21 @@
         },
         "runtime": {
           "bin/placeholder/UnityEditor.TestRunner.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
         }
       },
       "UnityEngine.TestRunner/1.0.0": {
@@ -38,10 +131,40 @@
     }
   },
   "libraries": {
+    "Cinemachine/1.0.0": {
+      "type": "project",
+      "path": "Cinemachine.csproj",
+      "msbuildProject": "Cinemachine.csproj"
+    },
+    "Unity.Postprocessing.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Postprocessing.Editor.csproj",
+      "msbuildProject": "Unity.Postprocessing.Editor.csproj"
+    },
+    "Unity.Postprocessing.Runtime/1.0.0": {
+      "type": "project",
+      "path": "Unity.Postprocessing.Runtime.csproj",
+      "msbuildProject": "Unity.Postprocessing.Runtime.csproj"
+    },
+    "Unity.Timeline/1.0.0": {
+      "type": "project",
+      "path": "Unity.Timeline.csproj",
+      "msbuildProject": "Unity.Timeline.csproj"
+    },
+    "Unity.Timeline.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Timeline.Editor.csproj",
+      "msbuildProject": "Unity.Timeline.Editor.csproj"
+    },
     "UnityEditor.TestRunner/1.0.0": {
       "type": "project",
       "path": "UnityEditor.TestRunner.csproj",
       "msbuildProject": "UnityEditor.TestRunner.csproj"
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.UI.csproj",
+      "msbuildProject": "UnityEditor.UI.csproj"
     },
     "UnityEngine.TestRunner/1.0.0": {
       "type": "project",
@@ -56,7 +179,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Cinemachine >= 1.0.0",
+      "Unity.Postprocessing.Editor >= 1.0.0",
+      "Unity.Postprocessing.Runtime >= 1.0.0",
+      "Unity.Timeline >= 1.0.0",
+      "Unity.Timeline.Editor >= 1.0.0",
       "UnityEditor.TestRunner >= 1.0.0",
+      "UnityEditor.UI >= 1.0.0",
       "UnityEngine.TestRunner >= 1.0.0",
       "UnityEngine.UI >= 1.0.0"
     ]
@@ -67,9 +196,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj",
-      "projectName": "UnityEditor.UI",
-      "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj",
+      "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\com.unity.cinemachine.editor.csproj",
+      "projectName": "com.unity.cinemachine.editor",
+      "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\com.unity.cinemachine.editor.csproj",
       "packagesPath": "C:\\Users\\cuiwanzhi\\.nuget\\packages\\",
       "outputPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\obj\\",
       "projectStyle": "PackageReference",
@@ -86,8 +215,26 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Cinemachine.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Cinemachine.csproj"
+            },
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Editor.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Editor.csproj"
+            },
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Runtime.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Runtime.csproj"
+            },
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.csproj"
+            },
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.Editor.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.Editor.csproj"
+            },
             "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj": {
               "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj"
+            },
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj"
             },
             "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj": {
               "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEngine.TestRunner.csproj"

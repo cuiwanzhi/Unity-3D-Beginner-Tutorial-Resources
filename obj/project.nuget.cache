@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NE8Hxm5KMiMFC43nUypOjjhszbtH3BKmhCJEnddVL3dPWA5JchT+qQN35n8c3foaKe5LYHIKt8mOSv44Fd/iww==",
+  "dgSpecHash": "xQK+JLgYiPHig2MwHOvJaIkVznOY7VOA1IXT4mfNphOkVhDlI1gmwlQSXW9+q6c91fBKUd4MEKHyaWtpcif9IA==",
   "success": true,
-  "projectFilePath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.UI.csproj",
+  "projectFilePath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\com.unity.cinemachine.editor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
