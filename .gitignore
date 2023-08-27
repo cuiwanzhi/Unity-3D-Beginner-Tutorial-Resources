@@ -1,5 +1,7 @@
 build/
 tmp/
+Temp/
 Library/
 logs/
 *.log
+*.assets.cache

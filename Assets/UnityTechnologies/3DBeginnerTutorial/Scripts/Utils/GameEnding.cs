@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.SearchService;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 using UnityEngine;
 
 /// <summary>
@@ -99,7 +98,7 @@ public class GameEnding : MonoBehaviour {
 	void ExitGame() {
 		// 需要判断是不是在编辑器中运行
 		if (Application.isEditor)
-			UnityEditor.EditorApplication.isPlaying = false;
+			EditorApplication.isPlaying = false;
 		else
 			Application.Quit();
 	}
