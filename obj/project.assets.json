@@ -2,82 +2,106 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Cinemachine/1.0.0": {
+      "Unity.VisualScripting.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Unity.Postprocessing.Runtime": "1.0.0",
-          "Unity.Timeline": "1.0.0",
           "UnityEditor.UI": "1.0.0",
           "UnityEngine.UI": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Cinemachine.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Cinemachine.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Core.dll": {}
         }
       },
-      "Unity.Postprocessing.Editor/1.0.0": {
+      "Unity.VisualScripting.Core.Editor/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Unity.Postprocessing.Runtime": "1.0.0",
+          "Unity.VisualScripting.Core": "1.0.0",
           "UnityEditor.TestRunner": "1.0.0",
           "UnityEditor.UI": "1.0.0",
           "UnityEngine.TestRunner": "1.0.0",
           "UnityEngine.UI": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Unity.Postprocessing.Editor.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Core.Editor.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Unity.Postprocessing.Editor.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Core.Editor.dll": {}
         }
       },
-      "Unity.Postprocessing.Runtime/1.0.0": {
+      "Unity.VisualScripting.Flow/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
           "UnityEditor.UI": "1.0.0",
           "UnityEngine.UI": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Unity.Postprocessing.Runtime.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Flow.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Unity.Postprocessing.Runtime.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Flow.dll": {}
         }
       },
-      "Unity.Timeline/1.0.0": {
+      "Unity.VisualScripting.Flow.Editor/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "UnityEditor.UI": "1.0.0",
-          "UnityEngine.UI": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Unity.Timeline.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Unity.Timeline.dll": {}
-        }
-      },
-      "Unity.Timeline.Editor/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Unity.Timeline": "1.0.0",
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
           "UnityEditor.TestRunner": "1.0.0",
           "UnityEditor.UI": "1.0.0",
           "UnityEngine.TestRunner": "1.0.0",
           "UnityEngine.UI": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Unity.Timeline.Editor.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Flow.Editor.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Unity.Timeline.Editor.dll": {}
+          "bin/placeholder/Unity.VisualScripting.Flow.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.State/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.State.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.State.dll": {}
+        }
+      },
+      "Unity.VisualScripting.State.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.State.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.State.Editor.dll": {}
         }
       },
       "UnityEditor.TestRunner/1.0.0": {
@@ -131,30 +155,35 @@
     }
   },
   "libraries": {
-    "Cinemachine/1.0.0": {
+    "Unity.VisualScripting.Core/1.0.0": {
       "type": "project",
-      "path": "Cinemachine.csproj",
-      "msbuildProject": "Cinemachine.csproj"
+      "path": "Unity.VisualScripting.Core.csproj",
+      "msbuildProject": "Unity.VisualScripting.Core.csproj"
     },
-    "Unity.Postprocessing.Editor/1.0.0": {
+    "Unity.VisualScripting.Core.Editor/1.0.0": {
       "type": "project",
-      "path": "Unity.Postprocessing.Editor.csproj",
-      "msbuildProject": "Unity.Postprocessing.Editor.csproj"
+      "path": "Unity.VisualScripting.Core.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.Core.Editor.csproj"
     },
-    "Unity.Postprocessing.Runtime/1.0.0": {
+    "Unity.VisualScripting.Flow/1.0.0": {
       "type": "project",
-      "path": "Unity.Postprocessing.Runtime.csproj",
-      "msbuildProject": "Unity.Postprocessing.Runtime.csproj"
+      "path": "Unity.VisualScripting.Flow.csproj",
+      "msbuildProject": "Unity.VisualScripting.Flow.csproj"
     },
-    "Unity.Timeline/1.0.0": {
+    "Unity.VisualScripting.Flow.Editor/1.0.0": {
       "type": "project",
-      "path": "Unity.Timeline.csproj",
-      "msbuildProject": "Unity.Timeline.csproj"
+      "path": "Unity.VisualScripting.Flow.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.Flow.Editor.csproj"
     },
-    "Unity.Timeline.Editor/1.0.0": {
+    "Unity.VisualScripting.State/1.0.0": {
       "type": "project",
-      "path": "Unity.Timeline.Editor.csproj",
-      "msbuildProject": "Unity.Timeline.Editor.csproj"
+      "path": "Unity.VisualScripting.State.csproj",
+      "msbuildProject": "Unity.VisualScripting.State.csproj"
+    },
+    "Unity.VisualScripting.State.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.State.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.State.Editor.csproj"
     },
     "UnityEditor.TestRunner/1.0.0": {
       "type": "project",
@@ -179,11 +208,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Cinemachine >= 1.0.0",
-      "Unity.Postprocessing.Editor >= 1.0.0",
-      "Unity.Postprocessing.Runtime >= 1.0.0",
-      "Unity.Timeline >= 1.0.0",
-      "Unity.Timeline.Editor >= 1.0.0",
+      "Unity.VisualScripting.Core >= 1.0.0",
+      "Unity.VisualScripting.Core.Editor >= 1.0.0",
+      "Unity.VisualScripting.Flow >= 1.0.0",
+      "Unity.VisualScripting.Flow.Editor >= 1.0.0",
+      "Unity.VisualScripting.State >= 1.0.0",
+      "Unity.VisualScripting.State.Editor >= 1.0.0",
       "UnityEditor.TestRunner >= 1.0.0",
       "UnityEditor.UI >= 1.0.0",
       "UnityEngine.TestRunner >= 1.0.0",
@@ -196,9 +226,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\com.unity.cinemachine.editor.csproj",
-      "projectName": "com.unity.cinemachine.editor",
-      "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\com.unity.cinemachine.editor.csproj",
+      "projectUniqueName": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Shared.Editor.csproj",
+      "projectName": "Unity.VisualScripting.Shared.Editor",
+      "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Shared.Editor.csproj",
       "packagesPath": "C:\\Users\\cuiwanzhi\\.nuget\\packages\\",
       "outputPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\obj\\",
       "projectStyle": "PackageReference",
@@ -215,20 +245,23 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Cinemachine.csproj": {
-              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Cinemachine.csproj"
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Core.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Core.csproj"
             },
-            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Editor.csproj": {
-              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Editor.csproj"
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Core.Editor.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Core.Editor.csproj"
             },
-            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Runtime.csproj": {
-              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Postprocessing.Runtime.csproj"
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Flow.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Flow.csproj"
             },
-            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.csproj": {
-              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.csproj"
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Flow.Editor.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.Flow.Editor.csproj"
             },
-            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.Editor.csproj": {
-              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.Timeline.Editor.csproj"
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.State.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.State.csproj"
+            },
+            "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.State.Editor.csproj": {
+              "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\Unity.VisualScripting.State.Editor.csproj"
             },
             "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj": {
               "projectPath": "f:\\UnityProjects\\Projects\\3DBeginner_Tutrial\\UnityEditor.TestRunner.csproj"

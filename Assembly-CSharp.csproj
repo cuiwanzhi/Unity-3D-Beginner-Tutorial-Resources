@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\Utils\GameEnding.cs" />
+    <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\Monster\Observer.cs" />
     <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\Monster\Ghost.cs" />
     <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\Characters\playerMovement.cs" />

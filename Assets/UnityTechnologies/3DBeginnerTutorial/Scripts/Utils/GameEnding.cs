@@ -101,6 +101,7 @@ public class GameEnding : MonoBehaviour {
 			EditorApplication.isPlaying = false;
 		else
 			Application.Quit();
+		// Application.Quit();
 	}
 
 	/// <summary>
